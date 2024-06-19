@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+AnchorPane {
+    -fx-font-family: "Poppins", sans-serif;
+}
+
+.label {
+    -fx-font-family: "Poppins", sans-serif;
+} 
+
+.combo-box {
+    -fx-background-color: transparent; 
+    -fx-border-color: #3B5E75; 
+    -fx-border-radius: 10; 
+    -fx-border-width: 1; 
+    -fx-padding: 5; 
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent; 
+    -fx-background-radius: 10; 
+    -fx-border-color: #3B5E75; 
+    -fx-border-radius: 15; 
+    -fx-border-width: 1; 
+}
+
+.combo-box .list-view {
+    -fx-background-color: white; 
+    -fx-border-color: #3B5E75; 
+    -fx-border-radius: 10; 
+    -fx-border-width: 1; 
+}
+
+.combo-box .list-cell {
+    -fx-background-color: white; 
+    -fx-text-fill: #3B5E75; 
+    -fx-border-color: transparent; 
+}
+.button {
+    -fx-background-color: #3B5E75; 
+    -fx-border-radius: 10; 
+    -fx-border-width: 1; 
+    -fx-text-fill: whitesmoke; 
+    -fx-padding: 5 15; 
+}
+
+.button:hover {
+    -fx-background-color: #333638;
+}
+
+.text-field {
+    
+    -fx-background-color: transparent; 
+    -fx-border-color: #3B5E75; 
+    -fx-border-radius: 8; 
+    -fx-border-width: 1; 
+    -fx-text-fill: black; 
+    -fx-padding: 5; 
+}
+
+#indicaRec {
+    -fx-background-color: transparent;
+    -fx-border-color: #3B5E75; 
+    -fx-border-radius: 8; 
+    
+}
